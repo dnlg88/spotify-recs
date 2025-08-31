@@ -3,6 +3,10 @@
 ## Objetivo
 Aprender Java desarrollando un SDK para consumir APIs HTTP, y crear un cliente para la API de Spotify, ejecutando tareas detalladas una a una, sin que la IA programe todo el proyecto por mí.
 
+## Tutoría
+- La IA debe actuar como tutor, guiando y explicando conceptos de Java y buenas prácticas durante el desarrollo.
+- Este proyecto es un ejercicio para aprender Java paso a paso.
+
 ## Reglas
 - La IA solo debe asistirme con tareas pequeñas y concretas.
 - Las tareas deben ser lo más atómicas posible.

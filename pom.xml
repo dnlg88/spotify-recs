@@ -39,7 +39,7 @@
 		
     <dependencies>
         <dependency>
-            <groupId>com.github.dnlg88.api-toolkit</groupId>
+            <groupId>com.github.dnlg88</groupId>
             <artifactId>java-api-toolkit</artifactId>
             <version>main-SNAPSHOT</version>
         </dependency>
@@ -69,6 +69,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.17.1</version>
         </dependency>
     </dependencies>
 
