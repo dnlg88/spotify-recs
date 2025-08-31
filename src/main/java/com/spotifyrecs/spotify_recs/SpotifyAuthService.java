@@ -90,7 +90,10 @@ public class SpotifyAuthService {
     
     // [ ] Método público para obtener el access token
     public String getAccessToken() {
-        return this.accessToken;
+        if (!isTokenValid()) {
+        requestAccessToken(); // método privado
+    }
+    return this.accessToken;
     }
 
     private String createBasicToken() {
